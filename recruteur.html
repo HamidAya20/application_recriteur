@@ -13,7 +13,7 @@
     <br><br/>
     <!-- Votre entreprise -->
     <fieldset class="border">
-        <legend class="hhhh" >Votre entreprise</legend>
+        <legend class="sous_border" >Votre entreprise</legend>
     <form   action="traitement.php" method="post">
    
         <!-- pour aligne les case  -->
@@ -90,7 +90,7 @@
 
 
 <fieldset class="border">
-    <legend class="hhhh">Description de l'entreprise</legend>
+    <legend class="sous_border">Description de l'entreprise</legend>
     <label for="secteur_activite">Secteur d'activité (max. 5 choix) :</label><br>
     <div id="secteur_activite">
         <input type="checkbox" id="activites_associatives" name="secteur" value="activites_associatives">
@@ -128,7 +128,7 @@
         <br/>
     <label for="description" class="hhhh">Description de l'entreprise</label>
     <p>*Attention : si vous faites un copier-coller de Word, veuillez utiliser le bouton ci-dessous "Coller depuis Word"</p>
-    <textarea class="hhhh" id="description" name="description" rows="10" cols="100"></textarea><br>
+    <textarea class="sous_border" id="description" name="description" rows="10" cols="100"></textarea><br>
 
     </div>
   
@@ -137,11 +137,11 @@
 
 <!--  email -->
 <fieldset class="border">
-    <legend class="hhhh">Votre entreprise</legend>
+    <legend class="sous_border">Votre entreprise</legend>
     <form action="traitement.php" method="post" onsubmit="return validateForm()">
 
         <!-- pour aligne les case  -->
-        <div class="form-row" id="hhhh">
+        <div class="form-row">
             <label for="email">Email :</label>
             <input type="email" id="email" name="email" required placeholder="votre email"  >
         </div>
