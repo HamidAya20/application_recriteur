@@ -20,7 +20,7 @@
                 <i class="fa fa-briefcase"></i>
                 <h3 class="job-title">ingénieur-conseil</h3>
                 <div class="details">
-                    blalllllllllllll
+                   hiiiiii
                 </div>
                 <a href="#" class="details-btn">plus de détails</a>
                 <span class="salaire">bbbbbbb</span>
