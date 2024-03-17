@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emploi</title>
-    <Link rel="stylesheet" href="style6.css">
+    <Link rel="stylesheet" href="style6form.css">
 </head>
 <body>
 <section class="container"> 
     <header> Inscription Candidat</header><hr>
-    <form action="#" Class="form">
+    <form action="cnx.php" methode="GET" Class="form">
         <div class="input-box">
             <label>Nom complet:</label><br>
             <input type="text" placeholder="Enter votre nom complet">
@@ -17,16 +17,20 @@
 
         <div class="input-box">
             <label>Email:</label><br>
-            <input type="text" placeholder="Enter email">
+            <input type="text" placeholder="Enter votre email">
+        </div>
+        <div class="input-box">
+            <label>mot de passe:</label><br>
+            <input type="text" name=mot de passe placeholder="Entrer votre mot de passe">
         </div>
         <div class="column">
             <div class="input-box">
                 <label>Date de naissance:</label>
-                <input type="text" placeholder="Entrer date">
+                <input type="text" placeholder="Entrer date" name="date">
             </div>
             <div class="input-box">
                 <label>Tel:</label>
-                <input type="text" placeholder="Entrer votre telephone">
+                <input type="text" placeholder="Entrer votre telephone" name="gender">
             </div>
            </div>
         <div class="gender-box">
@@ -49,21 +53,32 @@
 
        <div class="input-box">
                 <label>Adresse:</label><br>
-                <input type="text" placeholder="Entrer votre adresse">
+                <input type="text" placeholder="Entrer votre adresse" name="adresse">
             </div>
             <div class="input-box">
                 <label> Pays :</label><br>
-                <input type="text" placeholder="Enter pays">
+                <input type="text" placeholder="Enter pays" name="pays">
             </div>
             <div class="input-box">
                 <label>ville :</label><br>
-                <input type="text" placeholder="Enter votre ville">
+                <input type="text" placeholder="Enter votre ville" name="ville">
             </div>
             <Br>
-        
+           <div class="input-box">
+            <label>Domaine:</label><br>
+            <input type="text" placeholder="Enter email"name="Domaine">
+            </div>
+         <div class="input-box">
+            <label>Fonction:</label><br>
+            <input type="text" placeholder="Enter email" name="Fonction">
+            </div>
+         <div class="input-box">
+            <label>Formation:</label><br>
+            <input type="text" placeholder="Enter email" name="formation">
+            </div>
             <div class="input-box">
                 <label > Deposer votre CV </label>
-                <input type="file" >
+                <input type="file" name="deposer">
                
                    </div>
         </div>
